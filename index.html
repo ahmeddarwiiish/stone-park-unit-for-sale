@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luxury 4-Bedroom Villa for Sale in Austin, TX - Explore images, payment plan, and contact details.">
+  <title>Luxury 4-Bedroom Villa | DreamHomes Realty</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="overlay">
+      <h1>Luxury 4-Bedroom Villa in Austin, TX</h1>
+      <p>Spacious family villa with modern design | $200,000 | 3,500 sqft</p>
+      <button onclick="scrollToSection('inquiry')">Book a Visit</button>
+      <button class="secondary" onclick="scrollToSection('payment-plan')">View Payment Plan</button>
+    </div>
+  </header>
+
+  <section class="overview">
+    <h2>Property Overview</h2>
+    <p>Located in a serene neighborhood, this modern villa features high-end finishes, a private pool, and close proximity to top-rated schools and shopping centers.</p>
+    <ul>
+      <li>🛏 4 Bedrooms</li>
+      <li>🛁 3 Bathrooms</li>
+      <li>📐 3,500 sqft</li>
+      <li>🚗 2-Car Garage</li>
+      <li>🏫 Near Top Schools</li>
+      <li>🌳 Private Garden</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
+    <h2>Image Gallery</h2>
+    <img src="assets/gallery1.jpg" alt="Living Room">
+    <img src="assets/gallery2.jpg" alt="Bedroom">
+    <img src="assets/gallery3.jpg" alt="Kitchen">
+  </section>
+
+  <section class="location">
+    <h2>Location</h2>
+    <p>Conveniently located near downtown Austin with easy access to major highways, schools, and parks.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <section id="payment-plan">
+    <h2>Flexible Payment Plan</h2>
+    <table>
+      <tr><th>Payment Stage</th><th>Description</th><th>Amount</th><th>Due Date</th></tr>
+      <tr><td>Booking</td><td>Reservation fee</td><td>$5,000</td><td>Upon booking</td></tr>
+      <tr><td>Down Payment</td><td>20% of total price</td><td>$40,000</td><td>Within 30 days</td></tr>
+      <tr><td>Construction Installments</td><td>50% spread across milestones</td><td>$100,000</td><td>Monthly / Quarterly</td></tr>
+      <tr><td>Handover</td><td>Remaining 30% upon completion</td><td>$60,000</td><td>On delivery</td></tr>
+    </table>
+    <button>Request Custom Plan</button>
+  </section>
+
+  <section id="inquiry">
+    <h2>Request Information</h2>
+    <form action="https://formspree.io/f/example" method="POST" id="leadForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Request Info</button>
+      <p>Your information is secure and will not be shared.</p>
+    </form>
+  </section>
+
+  <section class="agent">
+    <h2>Contact the Agent</h2>
+    <img src="assets/agent.jpg" alt="Agent Photo">
+    <p><strong>John Smith</strong><br>Licensed Realtor<br>📞 (512) 555-2025<br>✉️ john@dreamhomes.com</p>
+    <button onclick="window.location.href='tel:5125552025'">Call Now</button>
+    <button class="secondary" onclick=\"window.open('https://wa.me/15125552025','_blank')\">Chat on WhatsApp</button>
+  </section>
+
+  <footer>
+    <p>DreamHomes Realty | 123 Main Street, Austin, TX | (512) 555-2025 | info@dreamhomes.com</p>
+    <p><a href=\"privacy.html\">Privacy Policy</a> | <a href=\"terms.html\">Terms & Conditions</a> | <a href=\"contact.html\">Contact Us</a></p>
+    <p>© 2025 DreamHomes Realty. All rights reserved.</p>
+  </footer>
+</body>
+</html>
